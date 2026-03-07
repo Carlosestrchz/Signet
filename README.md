@@ -2,7 +2,7 @@
 
 **Proof of Provenance Protocol on Solana**
 
-Signet es un protocolo descentralizado construido en la red de Solana que actúa como un notario criptográfico estricto. Permite a los usuarios registrar la huella digital única (HASH SHA-256) de sus archivos estáticos para demostrar su autoría y existencia en una línea de tiempo inmutable.
+Signet es un protocolo descentralizado construido en la red de Solana que actúa como un notario criptográfico estricto. Permite a los usuarios registrar la huella digital única (los primeros 32 bytes de un HASH SHA-256) de sus archivos estáticos para demostrar su autoría y existencia en una línea de tiempo inmutable.
 
 ## El Problema que Resuelve
 En la era de la IA generativa y la manipulación de medios, demostrar el origen y la autenticidad de un archivo digital es un desafío crítico. Signet resuelve el problema de confianza eliminando a los intermediarios centralizados y utilizando la inmutabilidad de la blockchain.
