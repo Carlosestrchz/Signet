@@ -7,8 +7,8 @@ pub struct RegisterContent<'info> {
     #[account(
         init,
         payer = author,
-        space = 8 + 200, // ~167 bytes, ajustado a los requerimientos
-        // La clave del éxito: prefijo, autor y los primeros 32 bytes del hash
+        space = 8 + 200, 
+        //prefijo, autor y los primeros 32 bytes del hash
         seeds = [b"registry", author.key().as_ref(), file_hash.as_bytes()[..32].as_ref()],
         bump
     )]
