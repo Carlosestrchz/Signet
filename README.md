@@ -1,5 +1,7 @@
 # Signet 
 
+![Logo de signet](/assets/signet-logo-black-squared.jpeg)
+
 **Proof of Provenance Protocol on Solana**
 
 Signet es un protocolo descentralizado construido en la red de Solana que actúa como un notario criptográfico estricto. Permite a los usuarios registrar la huella digital única (los primeros 32 bytes de un HASH SHA-256) de sus archivos estáticos para demostrar su autoría y existencia en una línea de tiempo inmutable.
