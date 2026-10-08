@@ -1,6 +1,6 @@
 # Signet 
 
-![Logo de signet](/assets/signet-logo-black-squared.jpeg)
+!<img src="/assets/signet-logo-black-squared.jpeg" alt="logo de signet" width="200"/>
 
 **Proof of Provenance Protocol on Solana**
 
